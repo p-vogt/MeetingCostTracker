@@ -12,7 +12,7 @@ using System.Windows;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("MeetingCostTracker")]
-[assembly: AssemblyCopyright("Copyright ©  2019")]
+[assembly: AssemblyCopyright("©  2019 Patrick Vogt")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
