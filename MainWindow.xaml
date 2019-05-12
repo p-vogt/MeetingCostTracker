@@ -7,7 +7,7 @@
         xmlns:local="clr-namespace:MeetingCostTracker"
         xmlns:properties="clr-namespace:MeetingCostTracker.Properties"
         mc:Ignorable="d"
-        Title="Meeting Cost Calculator" Width="341" SizeToContent="WidthAndHeight" ResizeMode="NoResize" Height="272.334" Icon="pack://siteoforigin:,,,/icons/icon_time_cost.ico"
+        Title="Meeting Cost Calculator" Width="341" SizeToContent="WidthAndHeight" ResizeMode="NoResize" Height="272.334" Icon="icons/icon_time_cost.ico"
         >
     <Window.Resources>
         <local:OpacityConverter x:Key="OpacityConverter"/>
@@ -22,12 +22,12 @@
     </Window.Resources>
     <Grid Background="#FFFAFAFA">
         <Button x:Name="btnStart" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="35" Click="BtnStart_Click" Height="35">
-            <Image Style="{StaticResource DisableIcon}" Source="pack://siteoforigin:,,,/icons/icon-start.png"/>
+            <Image Style="{StaticResource DisableIcon}" Source="icons/icon-start.png"/>
         </Button>
         <Label x:Name="labelCost" VerticalContentAlignment="Top" Padding="0" HorizontalContentAlignment="Center" Content="0 €" Margin="10,50,10,0" VerticalAlignment="Top" Height="52" Background="#FFB71C1C" Foreground="#FFF3F3F3" FontSize="36" FontWeight="Bold"/>
         <Label x:Name="labelElapsedTime" Content="" Margin="184,10,10,0" VerticalAlignment="Top" Height="35" FontSize="18"/>
-        <Image UseLayoutRounding="True" RenderOptions.BitmapScalingMode="Fant" Stretch="Uniform" Source="pack://siteoforigin:,,,/icons/icon-person.png" Margin="10,109,0,0" HorizontalAlignment="Left" Width="23" Height="28" VerticalAlignment="Top"/>
-        <Image Source="pack://siteoforigin:,,,/icons/icon-stop-watch.png" Margin="144,10,0,0" HorizontalAlignment="Left" Width="35" Height="35" VerticalAlignment="Top"></Image>
+        <Image UseLayoutRounding="True" RenderOptions.BitmapScalingMode="Fant" Stretch="Uniform" Source="icons/icon-person.png" Margin="10,109,0,0" HorizontalAlignment="Left" Width="23" Height="28" VerticalAlignment="Top"/>
+        <Image Source="icons/icon-stop-watch.png" Margin="144,10,0,0" HorizontalAlignment="Left" Width="35" Height="35" VerticalAlignment="Top"></Image>
         <Expander x:Name="expander" Header="" Margin="10,135,10,10">
             <Grid Height="auto" Margin="10,0,8,0">
                 <Label Content="€/h" Height="28" Margin="8,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="35" />
@@ -37,10 +37,10 @@
         </Expander>
         <xctk:IntegerUpDown x:Name="inputParticipantCount" Value="{Binding Source={x:Static properties:Settings.Default}, Path=CostPerPersonHour, Mode=TwoWay}" Minimum="1"  Margin="53,107,0,0" Height="28" VerticalAlignment="Top" HorizontalAlignment="Left" Width="76"/>
         <Button x:Name="btnReset" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="35" Click="BtnReset_Click" IsEnabled="False" Height="35">
-            <Image Style="{StaticResource DisableIcon}" Source="pack://siteoforigin:,,,/icons/icon-reset.png"/>
+            <Image Style="{StaticResource DisableIcon}" Source="icons/icon-reset.png"/>
         </Button>
         <Button x:Name="btnPause" HorizontalAlignment="Left" Margin="50,10,0,0" VerticalAlignment="Top" Width="35" Click="BtnPause_Click" IsEnabled="False" Height="35">
-            <Image Style="{StaticResource DisableIcon}" Source="pack://siteoforigin:,,,/icons/icon-pause.png"/>
+            <Image Style="{StaticResource DisableIcon}" Source="icons/icon-pause.png"/>
         </Button>
 
     </Grid>
