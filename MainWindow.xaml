@@ -7,7 +7,7 @@
         xmlns:local="clr-namespace:MeetingCostTracker"
         xmlns:properties="clr-namespace:MeetingCostTracker.Properties"
         mc:Ignorable="d"
-        Title="Meeting Cost Calculator" Width="341" SizeToContent="WidthAndHeight" ResizeMode="NoResize" Height="272.334"
+        Title="Meeting Cost Calculator" Width="341" SizeToContent="WidthAndHeight" ResizeMode="NoResize" Height="272.334" Icon="pack://siteoforigin:,,,/icon_time_cost.ico"
         >
     <Window.Resources>
         <local:OpacityConverter x:Key="OpacityConverter"/>

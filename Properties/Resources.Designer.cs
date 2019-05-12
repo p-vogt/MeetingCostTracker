@@ -119,5 +119,15 @@ namespace MeetingCostTracker.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        public static System.Drawing.Icon icon_time_cost {
+            get {
+                object obj = ResourceManager.GetObject("icon_time_cost", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
     }
 }
